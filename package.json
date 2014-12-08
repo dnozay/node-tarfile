@@ -1,0 +1,25 @@
+{
+  "name": "tarfile",
+  "version": "0.1.0",
+  "description": "tarfile utilities",
+  "main": "tarfile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tar",
+    "tarfile",
+    "extract",
+    "archive"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "deasync": "0.0.7",
+    "tar-stream": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "author": "Damien Nozay <damien.nozay@gmail.com> (https://github.com/dnozay)",
+  "license": "MIT"
+}
